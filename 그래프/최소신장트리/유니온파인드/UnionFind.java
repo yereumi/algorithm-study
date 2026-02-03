@@ -5,6 +5,16 @@ class UnionFind {
 	static int[] parent;
 	static int[] rank;
 
+	// 초기화
+	static void init() {
+		parent = new int[n + 1];
+		for (int i = 1; i <= n; i++) {
+			parent[i] = i;
+		}
+
+		rank = new int[n + 1];
+	}
+
 	// 대표 (root) 찾기
 	static int find(int x) {
 		if (parent[x] == x) return x;
