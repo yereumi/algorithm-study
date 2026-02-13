@@ -88,7 +88,7 @@ algorithm-study
 │   └── 최단거리 (Shortest Path)
 │       ├── 다익스트라 (Dijkstra)
 │       ├── 벨만포드 (Bellman-Ford)
-│       └── 플로이드와샬 (Floyd-Warshall)
+│       └── 플로이드워셜 (Floyd-Warshall)
 │
 ├── 동적계획법 (Dynamic Programming)
 │   ├── 냅색 (Knapsack)
