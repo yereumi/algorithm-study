@@ -39,11 +39,13 @@ algorithm-study
 │   ├── 삽입정렬 (Insertion Sort)
 │   ├── 선택정렬 (Selection Sort)
 │   ├── 병합정렬 (Merge Sort)
-│   │  ├─ Top-Down
-│   │  └─ Bottom-Up
+│   │   ├── Top-Down
+│   │   └── Bottom-Up
 │   ├── 퀵정렬 (Quick Sort)
 │   ├── 힙정렬 (Heap Sort)
-│   └── 기수 정렬 (Radix Sort)
+│   ├── 계수정렬 (Counting Sort)
+│   ├── 버킷정렬 (Bucket Sort)
+│   └── 기수정렬 (Radix Sort)
 │
 ├── 문자열 (String)
 │   └── 회문 (Palindrome)
@@ -59,22 +61,26 @@ algorithm-study
 ├── 그리디 (Greedy)
 │
 ├── 리스트 (List)
-│   ├─ 배열 리스트 (Array List)
-│   └─ 연결 리스트 (Linked List)
-│      ├─ 단일 연결 리스트 (Singly Linked List)
-│      ├─ 이중 연결 리스트 (Doubly Linked List)
-│      └─ 원형 연결 리스트 (Circular Linked List)
+│   ├── 배열 리스트 (Array List)
+│   └── 연결 리스트 (Linked List)
+│       ├── 단일 연결 리스트 (Singly Linked List)
+│       ├── 이중 연결 리스트 (Doubly Linked List)
+│       └── 원형 연결 리스트 (Circular Linked List)
 │
 ├── 스택 / 큐 (Stack & Queue)
 │   ├── 스택 (Stack)
 │   ├── 큐 (Queue)
-│   └── 우선순위큐 (Priority Queue)
+│   ├── 우선순위큐 (Priority Queue)
+│   └── 모노톤 스택 (Monotonic Stack)
 │
 ├── 트리 (Tree)
-│   └── 순회 (Traversal)
-│       ├── 전위순회 (Preorder)
-│       ├── 중위순회 (Inorder)
-│       └── 후위순회 (Postorder)
+│   ├── 순회 (Traversal)
+│   │   ├── 전위순회 (Preorder)
+│   │   ├── 중위순회 (Inorder)
+│   │   └── 후위순회 (Postorder)
+│   └── 세그먼트 트리 (Segment Tree)
+│       ├── 기본
+│       └── Lazy Propagation
 │
 ├── 그래프 (Graph)
 │   ├── 탐색 (Traversal)
@@ -94,6 +100,7 @@ algorithm-study
 │   ├── 냅색 (Knapsack)
 │   ├── 누적합 (Prefix Sum)
 │   ├── 트리DP (Tree DP)
+│   ├── 비트마스크 DP (Bitmask DP)
 │   └── 경로추적 (Path Tracking)
 │
 ├── 이분탐색 (Binary Search)
